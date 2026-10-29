@@ -34,8 +34,6 @@ O workflow usa o Gradle instalado na própria execução do GitHub Actions (não
 | Integridade conceitual | `Product`, `Cart`, `Order` e `OrderTracker` usam o mesmo vocabulário do domínio em todo o projeto. |
 | Composição em vez de herança | A tela compõe serviços (`Cart`, `OrderService`, `OrderTracker`) sem criar subclasses para regras de negócio. |
 
-Os princípios são demonstrados por classes específicas; não é necessário alegar que todos os princípios do capítulo foram implementados.
-
 ## Organização
 - `model/Product.java`: entidade de produto.
 - `data/CatalogRepository.java`: abstração do catálogo.
@@ -62,11 +60,6 @@ Os princípios são demonstrados por classes específicas; não é necessário a
 - **Mirella Albuquerque:** testes funcionais e qualidade.
 - **Marina Mendes:** revisão da navegação e experiência do usuário.
 - **Rayane Pontes:** revisão da mascote, cores e identidade visual.
-
-**Importante:** esta é uma proposta de distribuição, não um registro de tarefas já realizadas. Atualizar com as contribuições efetivas antes da entrega.
-
-## Observação de entrega
-O enunciado pede **repositório público e vídeo de até 3 minutos** para cada etapa. Não basta entregar somente o APK.
 
 ## Verificação da Go-Horse
 - Testes de regras de negócio em `tests/DomainTest.java` (executados antes do build no GitHub Actions).
