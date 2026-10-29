@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-24.04
 
     defaults:
-      run:
-        working-directory: PapaFila
+     run:
+      working-directory: PapaFila-main/PapaFila
 
     steps:
       - name: Baixar projeto
@@ -45,6 +45,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: PapaFila-APK
-          path: PapaFila/app/build/outputs/apk/debug/*.apk
+          path: PapaFila-main/PapaFila/app/build/outputs/apk/debug/*.apk
           if-no-files-found: error
 
