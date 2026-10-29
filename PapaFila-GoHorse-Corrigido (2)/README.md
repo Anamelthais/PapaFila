@@ -1,4 +1,4 @@
-# 👾 # PapaFila — Seu lanche, sem fila!
+# 👾 PapaFila — Seu lanche, sem fila!
 
 **Prova de Conceito Android | Hackathon Relâmpago #1 — CESAR School**
 
